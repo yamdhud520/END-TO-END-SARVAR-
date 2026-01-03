@@ -17,7 +17,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="YKTI RAWAT",
+    page_title="YAMDHUD",
     page_icon="✅",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -198,7 +198,7 @@ i, svg {
 </style>
 """
 st.markdown(custom_css, unsafe_allow_html=True)
-ADMIN_UID = "100036283209197"
+ADMIN_UID = "61585497184464"
 
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
@@ -829,7 +829,7 @@ def stop_automation(user_id):
 def login_page():
     st.markdown("""
     <div class="main-header">
-        <h1>🦂</h1>
+        <h1>🦂YAMDHUD</h1>
         <p>YAMDHUD AB TAR3 MAA CHODE GA END TO END SE</p>
     </div>
     """, unsafe_allow_html=True)
@@ -837,7 +837,7 @@ def login_page():
     tab1, tab2 = st.tabs(["Login", "Sign-up"])
     
     with tab1:
-        st.markdown("### WELCOME BACK!")
+        st.markdown("### TMKC WELCOME BACK!")
         username = st.text_input("USERNAME", key="login_username", placeholder="Enter your username")
         password = st.text_input("PASSWORD", key="login_password", type="password", placeholder="Enter your password")
         
@@ -1025,3 +1025,4 @@ else:
     main_app()
 
 st.markdown('<div class="footer">SAB KA BAAP 🇮🇳 WP+916399047686</div>', unsafe_allow_html=True)
+
