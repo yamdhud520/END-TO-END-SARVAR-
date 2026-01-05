@@ -65,7 +65,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 style="text-align:center;">YAMDHUD AYA HAI END TO END DE CHODNE TMKC</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align:center;">🥷⚜️YAMDHUD AYA HAI END TO END SE CHODNE TMKC💯🦅</h1>', unsafe_allow_html=True)
 
 
 # ---------------- SESSION ----------------
@@ -109,9 +109,9 @@ if not st.session_state.logged_in:
                 st.error("Invalid login")
 
     with tab2:
-        nu = st.text_input("NEW USRENAME DAL GANDU")
-        np = st.text_input("NEW Password DAL RANDI", type="password")
-        npc = st.text_input("Confirm Password DAL TARI MAA CHODU", type="password")
+        nu = st.text_input("NEW USRENAME DAL GANDU🌝")
+        np = st.text_input("NEW Password DAL RANDI😞", type="password")
+        npc = st.text_input("Confirm Password DAL TARI MAA CHODU🗿", type="password")
         if st.button("Create User"):
             if np != npc:
                 st.error("Passwords do not match")
@@ -126,7 +126,7 @@ if not st.session_state.logged_in:
 # ---------------- DASHBOARD ----------------
 st.subheader(f"Dashboard — User {st.session_state.user_id}")
 
-if st.button("Logout KAR TMKC"):
+if st.button("Logout KAR TMKC😐"):
     st.session_state.logged_in = False
     st.session_state.automation_running = False
     st.session_state.automation_state.running = False
@@ -253,3 +253,4 @@ render_live_console()
 if st.session_state.automation_running:
     time.sleep(1)
     st.rerun()
+
