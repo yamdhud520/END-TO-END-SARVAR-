@@ -65,7 +65,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 style="text-align:center;">E23E FB</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align:center;">🥷😈YAMDHUD AYA HAI END TO END SE CHODNE TMKC</h1>', unsafe_allow_html=True)
 
 
 # ---------------- SESSION ----------------
